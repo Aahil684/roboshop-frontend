@@ -7,7 +7,7 @@ on:
 
 jobs:
   common:
-    uses: Aahil684/github-actions-reusable/.github/workflows/ci-dev-br.yml
+    uses: Aahil684/github-actions-reusable/.github/workflows/ci-dev-br.yml@main
     with:
       component_name: frontend
       app_type: nginx

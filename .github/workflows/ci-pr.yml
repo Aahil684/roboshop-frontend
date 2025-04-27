@@ -3,7 +3,7 @@ on: pull_request
 
 jobs:
   common:
-    uses: Aahil684/github-reusable-workflows/.github/workflows/ci-pr.yml
+    uses: Aahil684/github-reusable-workflows/.github/workflows/ci-pr.yml@main
     with:
       component_name: frontend
       app_type: nginx
