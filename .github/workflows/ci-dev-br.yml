@@ -1,0 +1,12 @@
+name: CI Dev-Branch
+on:
+  push:
+    branches:
+      - "RB**"
+
+jobs:
+  common:
+    uses: Aahil684/github-actions-reusable/.github/workflows/ci-dev-br.yml
+    with:
+      component_name: frontend
+      app_type: nginx
